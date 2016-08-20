@@ -1,0 +1,3 @@
+shanes_homepage:
+    path:     /hello/{name}/{count}
+    defaults: { _controller: ShanesBundle:Default:index }

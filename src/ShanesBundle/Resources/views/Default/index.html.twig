@@ -1,0 +1,15 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}Twig title{% endblock %}
+
+{% block body %}
+
+  {% for i in 1..count %}
+  {% if i%3==0 %}
+  #{{ i }} is a multiple of three! </br>
+  {% else %}
+  #{{ i }} is not a multiple of three. </br>
+  {% endif %}
+  {% endfor %}
+
+{% endblock %}
